@@ -15,6 +15,7 @@ includes:
   - api_constants
   - extends_luaview
   - examples
+  - tools
   - changes_log
 
 search: true
