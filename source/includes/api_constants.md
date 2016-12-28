@@ -130,3 +130,14 @@ View特效。
 |NONE|-|无特效|
 |CLICK|Android|点击水波纹特效|
 |PARALLAX|-|视差特效|
+
+## PaintStyle
+<aside class="notice" id="paint_style">
+Canvas画笔样式。参考 <a href="#canvas">Canvas</a>
+</aside>
+
+
+|值|平台|备注|
+|----|----|----|
+|FILL|-|填充|
+|STROKE|-|中空|
