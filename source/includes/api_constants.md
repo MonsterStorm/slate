@@ -5,17 +5,17 @@
 View布局。
 </aside>
 
-|值|平台|备注|
-|----|----|----|
-|LEFT|-|左对齐|
-|TOP|-|顶对齐|
-|RIGHT|-|右对齐|
-|BOTTOM|-|底对齐|
-|CENTER|-|整体居中|
-|H_CENTER|-|水平居中|
-|V_CENTER|-|垂直居中|
-|START|-|左or上对齐|
-|END|-|右or下对齐|
+|ID|值|平台|备注|
+|----|----|----|----|
+|1|LEFT|-|左对齐|
+|2|TOP|-|顶对齐|
+|3|RIGHT|-|右对齐|
+|4|BOTTOM|-|底对齐|
+|5|CENTER|-|整体居中|
+|6|H_CENTER|-|水平居中|
+|7|V_CENTER|-|垂直居中|
+|8|START|-|左or上对齐|
+|9|END|-|右or下对齐|
 
 
 ## TextAlign
@@ -23,11 +23,11 @@ View布局。
 文本布局。
 </aside>
 
-|值|平台|备注|
-|----|----|----|
-|LEFT|-|左&垂直居中|
-|RIGHT|-|整体居中|
-|CENTER|-|右&垂直居中|
+|ID|值|平台|备注|
+|----|----|----|----|
+|1|LEFT|-|左&垂直居中|
+|2|RIGHT|-|整体居中|
+|3|CENTER|-|右&垂直居中|
 
 ## FontWeight
 
@@ -35,10 +35,10 @@ View布局。
 字体大小。
 </aside>
 
-|值|平台|备注|
-|----|----|----|
-|NORMAL|-|正常|
-|BOLD|-|粗体|
+|ID|值|平台|备注|
+|----|----|----|----|
+|1|NORMAL|-|正常|
+|2|BOLD|-|粗体|
 
 ## FontStyle
 
@@ -46,11 +46,11 @@ View布局。
 字体样式。
 </aside>
 
-|值|平台|备注|
-|----|----|----|
-|NORMAL|-|正常|
-|ITALIC|-|斜体|
-|BOLD|-|粗体|
+|ID|值|平台|备注|
+|----|----|----|----|
+|1|NORMAL|-|正常|
+|2|ITALIC|-|斜体|
+|3|BOLD|-|粗体|
 
 ## ScaleType
 
@@ -58,36 +58,36 @@ View布局。
 图片样式。
 </aside>
 
-|值|平台|备注|
-|----|----|----|
-|FIT_XY|-|左上铺满|
-|FIT_START|-|左or上铺满|
-|FIT_END|-|右or下铺满|
-|FIT_CENTER|-|居中铺满|
-|CENTER|-|居中|
-|CENTER_CROP|-|居中裁剪|
-|CENTER_INSIDE|-|居中包含|
-|MATRIX|-|矩阵|
+|ID|值|平台|备注|
+|----|----|----|----|
+|1|FIT_XY|-|左上铺满|
+|2|FIT_START|-|左or上铺满|
+|3|FIT_END|-|右or下铺满|
+|4|FIT_CENTER|-|居中铺满|
+|5|CENTER|-|居中|
+|6|CENTER_CROP|-|居中裁剪|
+|7|CENTER_INSIDE|-|居中包含|
+|8|MATRIX|-|矩阵|
 
 ## Gravity
 <aside class="notice" id="gravity">
 布局样式。
 </aside>
 
-|值|平台|备注|
-|----|----|----|
-|LEFT|-|左对齐|
-|TOP|-|上对齐|
-|RIGHT|-|右对齐|
-|BOTTOM|-|下对齐|
-|START|-|左or上对齐|
-|END|-|右or下对齐|
-|CENTER|-|居中对齐|
-|H_CENTER|-|水平居中对齐|
-|V_CENTER|-|垂直居中对齐|
-|FILL|-|铺满|
-|H_FILL|-|水平铺满|
-|V_FILL|-|垂直铺满|
+|ID|值|平台|备注|
+|----|----|----|----|
+|1|LEFT|-|左对齐|
+|2|TOP|-|上对齐|
+|3|RIGHT|-|右对齐|
+|4|BOTTOM|-|下对齐|
+|5|START|-|左or上对齐|
+|6|END|-|右or下对齐|
+|7|CENTER|-|居中对齐|
+|8|H_CENTER|-|水平居中对齐|
+|9|V_CENTER|-|垂直居中对齐|
+|10|FILL|-|铺满|
+|11|H_FILL|-|水平铺满|
+|12|V_FILL|-|垂直铺满|
 
 ## Ellipsize
 
@@ -95,12 +95,12 @@ View布局。
 文本省略样式。
 </aside>
 
-|值|平台|备注|
-|----|----|----|
-|START|-|起始位置省略|
-|MIDDLE|-|中间位置省略|
-|END|-|结束为止省略|
-|MARQUEE|-|跑马灯|
+|ID|值|平台|备注|
+|----|----|----|----|
+|1|START|-|起始位置省略|
+|2|MIDDLE|-|中间位置省略|
+|3|END|-|结束为止省略|
+|4|MARQUEE|-|跑马灯|
 
 
 ## Interpolator
@@ -108,28 +108,28 @@ View布局。
 动画差值器。
 </aside>
 
-|值|平台|备注|
-|----|----|----|
-|ACCELERATE_DECELERATE|-|先加速后减速插值|
-|ACCELERATE|-|加速插值|
-|ANTICIPATE|-|预期插值|
-|ANTICIPATE_OVERSHOOT|-|预期弹性插值|
-|BOUNCE|-|回弹插值|
-|CYCLE|-|环形插值|
-|DECELERATE|-|减速插值|
-|LINEAR|-|线性插值|
-|OVERSHOOT|-|弹性插值|
+|ID|值|平台|备注|
+|----|----|----|----|
+|1|ACCELERATE_DECELERATE|-|先加速后减速插值|
+|2|ACCELERATE|-|加速插值|
+|3|ANTICIPATE|-|预期插值|
+|4|ANTICIPATE_OVERSHOOT|-|预期弹性插值|
+|5|BOUNCE|-|回弹插值|
+|6|CYCLE|-|环形插值|
+|7|DECELERATE|-|减速插值|
+|8|LINEAR|-|线性插值|
+|9|OVERSHOOT|-|弹性插值|
 
 ## ViewEffect
 <aside class="notice" id="view_effect">
 View特效。
 </aside>
 
-|值|平台|备注|
-|----|----|----|
-|NONE|-|无特效|
-|CLICK|Android|点击水波纹特效|
-|PARALLAX|-|视差特效|
+|ID|值|平台|备注|
+|----|----|----|----|
+|1|NONE|-|无特效|
+|2|CLICK|Android|点击水波纹特效|
+|3|PARALLAX|-|视差特效|
 
 ## PaintStyle
 <aside class="notice" id="paint_style">
@@ -137,7 +137,7 @@ Canvas画笔样式。参考 <a href="#canvas">Canvas</a>
 </aside>
 
 
-|值|平台|备注|
-|----|----|----|
-|FILL|-|填充|
-|STROKE|-|中空|
+|ID|值|平台|备注|
+|----|----|----|----|
+|1|FILL|-|填充|
+|2|STROKE|-|中空|
